@@ -1,0 +1,51 @@
+body {
+  height: 96vh;        
+  background-color: rgb(192, 190, 190);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  padding: 20px 55px;
+  width: 300px;
+}
+
+.container h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  border-bottom: 4px solid rgb(124, 0, 0);
+  padding-bottom: 25px;
+}
+
+.container label {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.container form input {
+  width: calc(100% - 20px);
+  padding: 8px 10px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 3px solid rgb(136, 0, 0);
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+
+.container form button {
+  width: 100%;
+  padding: 5px 0;
+  border: none;
+  background-color: rgb(174, 225, 255);
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+
